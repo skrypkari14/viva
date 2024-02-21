@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Jost;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  background-image: url("/src/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.logo-landing{
+  background-image: url("/src/img/logo.png");
+  width: 122px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.nav-landing{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.auth-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.btn-a{
+  border: none;
+  background-color: #A23BCC;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 10px;
+  cursor:  pointer;
+  transition: all 500ms ease;
+}
+
+.btn-b{
+  background-color: white;
+  color: #A23BCC;
+  border: 1px solid #A23BCC;
+  padding: 9px 15px;
+  border-radius: 10px;
+  cursor:  pointer;
+  transition: all 500ms ease;
+}
+
+.btn-b:hover{
+  background-color: #4E0A7A;
+  color: white;
+  border: 1px solid #4E0A7A;
+}
+
+.btn-a:hover{
+  box-shadow: 0px 4px 23.4px 5px rgba(162, 59, 204, 0.50);
+}
+
+
+.description_block{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 140px;
+}
+
+.main-text>h1{
+  color: #711DB0;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main-text>p{
+  max-width: 790px;
+  width: 100%;
+  color: #4E0A7A;
+  text-align: center;
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-gradient{
+  margin-top: 30px;
+  padding: 10px 25px;
+  border: none;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 20px;
+  background: linear-gradient(266deg, #4E0A7A 0%, #A23BCC 100%);
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.btn-gradient:hover{
+  box-shadow: 0px 4px 23.4px 5px rgba(162, 59, 204, 0.50);
+}
+
+.benefits_block{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.benefits_card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid #711DB0;
+  background: #FFF;
+}
+
+.benefits_card>svg{
+  margin-top: 50px;
+}
+
+.benefits_card>p{
+  padding-top: 35px;
+  max-width: 155px;
+  width: 100%;
+  color: #711DB0;
+  text-align: center;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.benefits_card_main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #711DB0 0%, #4E0A7A 100%);
+}
+
+.benefits_card_main>svg{
+  margin-top: 50px;
+}
+
+.benefits_card_main>p{
+  max-width: 220px;
+  width: 100%;
+  padding-top: 35px;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.instruments{
+  height: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+  background: linear-gradient(243deg, #A23BCC 0%, #4E0A7A 100%);
+}
+
+.instruments_block{
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instrument_card{
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("/src/img/card_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instruments h2{
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 60px;
+}
+
+.instrument_card{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.instrument_card>img{
+  margin-top: 60px;
+}
+
+.instrument_card>h3{
+  margin-top: 20px;
+  color: #711DB0;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.instrument_card>p{
+  margin-top: 20px;
+  max-width: 300px;
+  width: 100%;
+  color: #A23BCC;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.more_instruments{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: 70px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 20px;
+  background-image: url("/src/img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.more_instruments h3{
+  color: #A23BCC;
+  max-width: 570px;
+  width: 100%;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.try{
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.try h2{
+  padding-top: 120px;
+  color: #711DB0;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.try_block{
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.try_block_left>p{
+  color: #4E0A7A;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.try_block_left ul{
+  padding-left: 70px;
+  padding-top: 25px;
+}
+
+.try_block_left li{
+  color: #711DB0;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 20px;
+  list-style: url('/src/img/list-style.png');
+}
+
+
+.try_block_bottom{
+  max-width: 490px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.try_block_bottom h3{
+  color: #711DB0;
+  text-align: center;
+  font-family: Jost;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.icons_mobile{
+  display: none;
+}
+
+.try_block_bottom p{
+  padding-top: 10px;
+  color: #4E0A7A;
+  text-align: center;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-background{
+  margin-top: 10px;
+  padding: 10px 35px;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  background-image: url('../src/img/tablet.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.btn-background:hover{
+  transform: scale(1.1);
+}
+
+.signup_body{
+  width: 100%;
+  height: 100vh;
+}
+
+.signup_body {
+  background-color: #f8f9fa; /* Цвет фона страницы */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_container {
+  background-color: #ffffff; /* Цвет фона блока регистрации */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup_form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #711DB0; /* Цвет текста для меток */
+}
+
+.input-group {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da; /* Цвет рамки инпута */
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus {
+  border-color: #4E0A7A; /* Цвет рамки при фокусе */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(78, 10, 122, 0.25); /* Тень при фокусе */
+}
+
+.text-danger {
+  color: #dc3545; /* Цвет текста ошибки */
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #711DB0; /* Цвет основной кнопки */
+  color: #ffffff; /* Цвет текста на кнопке */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #4E0A7A; /* Цвет кнопки при наведении */
+}
+
+.signup_error_popup {
+  width: 350px;
+  height: 0;
+  background-color: #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  animation-name: popupanimation;
+  animation-duration: 10s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes popupanimation {
+  0% {
+    height: 0;
+    width: 350px;
+  }
+  50% {
+    height: 150px;
+    width: 350px;
+  }
+  100% {
+    height: 0;
+    width: 350px;
+  }
+}
+
+.signup_body {
+  background: linear-gradient(243deg, #A23BCC 0%, #4E0A7A 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup_container {
+  background: #fff;
+  max-width: 350px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.signup_container form .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+
+.signup_container form .title:before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 60px;
+  left: 0px;
+  bottom: -3px;
+  border-radius: 5px;
+  background: linear-gradient(243deg, #A23BCC 0%, #4E0A7A 100%);
+}
+
+.signup_container form .input-box {
+  width: 100%;
+  height: 45px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.signup_container form .input-box input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 16px;
+  border: none;
+}
+
+.signup_container form .underline::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  left: 0;
+  bottom: 0;
+}
+
+.signup_container form .underline::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #A23BCC 0%, #4E0A7A 100%);
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.3s ease;
+}
+
+.signup_container form .input-box input:focus ~ .underline::after,
+.signup_container form .input-box input:valid ~ .underline::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.signup_container form .button {
+  margin: 40px 0 20px 0;
+}
+
+.signup_container .input-box input[type="button"] {
+  background: linear-gradient(to right, #A23BCC 0%, #4E0A7A 100%);
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup_container .input-box input[type="button"]:hover {
+  letter-spacing: 1px;
+}
+
+.signup_container .option {
+  font-size: 14px;
+  text-align: center;
+}
+
+.google{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: white;
+  border-radius: 5px;
+  gap: 10px;
+  background: linear-gradient(to right,  #00acee 0%, #1abeff 100%);
+  padding: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.google:hover{
+  letter-spacing: 1px;
+  background: linear-gradient(to right,  #1abeff 0%, #00acee 100%);
+}
+
+.error-message{
+  color: #711DB0;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+@keyframes slidein {
+  from {height: 0;}
+  to {height: 100%;}
+}
+
+@media (max-width: 1200px) {
+  .container{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .instruments_block{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .instrument_card{
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px){
+  .icons_desktop{
+    display: none;
+  }
+  .icons_mobile{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .instruments h2{
+    font-size: 42px;
+  }
+  .try_block{
+    flex-direction: column;
+  }
+  .try_block_left p{
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .try_block_left ul{
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .try_block_left li{
+    text-align: center;
+    list-style-position: inside;
+  }
+  .more_instruments_text h3{
+    font-size: 42px;
+  }
+  .more_instruments_text .btn-gradient{
+    font-size: 18px;
+  }
+  .more_instruments img{
+    width: 20%;
+  }
+}
+
+
+
+
+@media (max-width: 768px){
+  .more_instruments_text h3{
+    font-size: 36px;
+  }
+  .more_instruments_text .btn-gradient{
+    font-size: 16px;
+  }
+  .benefits_block{
+    flex-direction: column;
+  }
+  .benefits_card{
+    width: 80%;
+    justify-content: center;
+  }
+  .benefits_card>p{
+    max-width: 70%;
+    font-size: 20px;
+  }
+  .benefits_card>svg{
+    transform: scale(1.5);
+    margin: 0;
+  }
+  .benefits_card_main>svg{
+    transform: scale(1.5);
+    margin: 0;
+  }
+  .benefits_card_main{
+    width: 80%;
+    justify-content: center;
+  }
+  .benefits_card_main>p{
+    max-width: 70%;
+    font-size: 20px;
+  }
+  .instrument_card{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .instruments h2{
+    font-size: 32px
+  }
+  .instrument_card p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .instrument_card h3 {
+    text-align: center;
+    margin: 0;
+  }
+  .instrument_card img {
+    margin: 0;
+  }
+  .more_instruments{
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 0px 0px 20px 0px;
+  }
+  .more_instruments img{
+    width: 30%;
+  }
+  .more_instruments h3{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .phone_icon_left{
+    display: none;
+  }
+  .try_block_right{
+    display: flex;
+    justify-content: center;
+  }
+  .try_block_right img{
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 480px){
+  .main-text img{
+    width: 90%;
+  }
+  .main-text h1{
+    font-size: 42px;
+  }
+  .main-text p{
+    font-size: 24px;
+    padding-top: 20px;
+  }
+  .more_instruments img{
+    width: 45%;
+  }
+  .more_instruments_text h3{
+    font-size: 32px;
+  }
+  .btn-a{
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .main-text h1{
+    font-size: 32px;
+  }
+  .main-text p{
+    font-size: 18px;
+  }
+  .main-text .btn-gradient{
+    font-size: 16px;
+  }
+  .benefits_card p{
+    font-size: 16px;
+  }
+  .benefits_card_main p{
+    font-size: 16px;
+  }
+  .benefits_card svg{
+    transform: scale(1.2);
+  }
+  .benefits_card_main svg{
+    transform: scale(1.2);
+  }
+  .try h2{
+    font-size: 32px;
+  }
+  .try p{
+    font-size: 20px;
+  }
+  .try_block_left li{
+    font-size: 16px;
+  }
+  .try_block_bottom h3{
+    font-size: 32px;
+  }
+  .try_block_bottom p{
+    font-size: 20px;
+  }
+  .try_block_bottom .btn-background{
+    font-size: 16px;
+  }
+  .instrument_card h3{
+    font-size: 20px;
+  }
+  .instrument_card p{
+    font-size: 16px;
+    width: 70%;
+  }
+  .more_instruments h3{
+    font-size: 24px;
+  }
+  .more_instruments img{
+    width: 55%;
+  }
+  .more_instruments .btn-gradient{
+    font-weight: 500;
+  }
+}

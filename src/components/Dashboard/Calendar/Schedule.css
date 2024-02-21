@@ -1,0 +1,23 @@
+.ant-picker-ok>button{
+    background-color: #6b21a8;
+}
+
+.react-datepicker__header{
+    background-color: #fff;
+}
+
+.react-datepicker__day--selected{
+    background-color: #7c3aed;
+}
+
+.react-datepicker__day:hover{
+    background-color: #ddd6fe;
+}
+
+.react-datepicker__current-month{
+    color: #581c87;
+}
+
+.react-datepicker__navigation{
+    bac: #581c87;
+}
